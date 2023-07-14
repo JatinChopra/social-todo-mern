@@ -28,21 +28,21 @@ The Social Todo App is a web application built with a separate frontend and back
 ## Getting Started
 
 1. Clone the repository:
-   git clone <repository_url>
+   `git clone <repository_url>`
 2. Install dependencies:
-   cd frontend
-   npm install
+   `cd frontend`
+   `npm install`
 
-   cd ../backend
-   npm install
+   `cd ../backend`
+   `npm install`
 
 3. Configure the backend:
    -- Create a MongoDB database and update the connection string in `backend/db/connectHandler.js`.
    -- Set the JWT secret key in `backend/.env`.
 
 5. Start the frontend and backend servers:
-   cd frontend
-   npm run dev
+   `cd frontend`
+   `npm run dev`
 
-   cd ../backend
-   nodemon server.js
+   `cd ../backend`
+   `nodemon server.js`
